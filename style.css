@@ -15,22 +15,8 @@ a{
     color:rgb(156, 132, 227);
     text-decoration: none;
 }
-button{
-    width: 70px;
-    height: 30px;
-    
-    max-width: 100%;
-    background:rgb(161, 140, 181);
-    color: white;
-    border-radius: 50px;
-    border: none;
-    
-    
-}
-button:hover{
-    transform: scale(1.1);
 
-}
+
 .navbar{
     min-height: 90px;
     display: flex;
@@ -88,7 +74,7 @@ button:hover{
 
 
     }
-    .hamburger.active.bar:nth-child(2){
+    .hamburger.active.bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
 
     }
@@ -191,8 +177,8 @@ section {
 .card::before{
     background: radial-gradient(
         800px circle at var(--mouse-x) var(--mouse-y),
-        rgba(255, 255, 255, 0.06),
-        transparent 40%
+        rgba(234, 155, 155, 0.06),
+        transparent 50%
     );
 
     border-radius: inherit;
