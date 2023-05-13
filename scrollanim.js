@@ -6,12 +6,14 @@ const obs = new IntersectionObserver ((e)=>{
             e.target.classList.add('show');
         }
         else{
-            //e.target.classList.remove('show');
+            e.target.classList.remove('show');
         }
     });
 });
 
 
-const hidels = document.getElementsByClassName('hidden');
+const hidels = document.querySelectorAll('.hidden');
 
 hidels.forEach((el)=> obs.observe(el));
+
+

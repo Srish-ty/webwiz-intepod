@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-header{
-    background-color: #2a0a35;
-}
 li{
     list-style: none;
 
@@ -102,8 +99,6 @@ button:hover{
         width: 100%;
         text-align: center;
         transition: 0.3s;
-
-
     }
     .nav-item{
         margin: 20px 0;
@@ -124,19 +119,12 @@ body {
     
     }
 
-section {
-        display: grid;
-        place-items: center;
-        align-content: center;
-        min-height: 100vh;
-        
-        }
 
 .hidden{
     opacity: 0;
     filter: blur (15px);
-    transform: translate(-100%) ;
-    transition: all 2s;
+    transform: translateY(50%) ;
+    transition: all 1s;
 
 }
 .show{
@@ -144,10 +132,6 @@ section {
     filter: blur(0);
     transform: translate(0);
 }
-
-
-
-
 
 
 
