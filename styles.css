@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    background-color: #0d0c1c;
+    color:#edf3fc;
+}
+
+#navbar {
+    padding: 0.5vw 2vw;
+    background-color: aqua;
+    color: black;
+    display: flex;
+    flex-direction: row; justify-content: flex-end;
+}
+
+.navitem{
+    padding: 1vw 2vw;
+    margin: 0.5vw 3vw;
+    border: 0px solid red;
+}
+

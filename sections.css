@@ -1,0 +1,22 @@
+.sec{
+    padding: 3vw 4vw;
+    margin: 2.5vw auto;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    border: 1px solid aqua;
+    height: 20vh;
+}
+
+.show{
+    opacity: 0;
+    transition: all 1s;
+}
+.hidden{
+    opacity: 1;
+}
+
+@media (preders-reduced-motion) {
+   
+    
+}
