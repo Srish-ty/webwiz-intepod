@@ -2,7 +2,9 @@
     --bg-color: rgb(20, 20, 20);
     --card-color: rgb(23, 23, 23);
   }
-  
+  .none{
+    display: none;
+  }
   body {
     align-items: center;
     background-color: var(--bg-color);
@@ -140,12 +142,48 @@
     font-size: 0.85em;
     margin-top: 8px;
   }
+  .hamburger{
+    display: none;
+    cursor: pointer;
+  }
+  .bar{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+  }
   
   
   
   @media(max-width: 1000px) {
+    
+    .hamburger{
+      display: block;
+      align-items: center;
+
+  }
+
+  .hamburger.active.bar:nth-child(2){
+      opacity: 0;
+
+  }
+  .hamburger.active.bar:nth-child(1){
+      transform: translateY(8px) rotate(45deg);
+
+
+  }
+  .hamburger.active.bar:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg);
+  }
+
+
     body {
-      align-items: flex-start;  
+      align-items: flex;  
       overflow: auto;
     }
     
