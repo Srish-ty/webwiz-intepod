@@ -8,12 +8,14 @@ function changeMode(){
         document.body.style.backgroundColor='azure';
         document.body.style.color='night';
         for(s of sec){s.style.color='rgb(13, 12, 28)';}
+        dm.style.color='rgb(156, 132, 227)';
         boole=1;
     }
     else{
         document.body.style.backgroundColor='rgb(13, 12, 28)';
         document.body.style.color='white';
         for(s of sec){s.style.color='white';}
+        dm.style.color='white';
         boole=0;
     }
 }
