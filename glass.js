@@ -8,3 +8,7 @@ document.getElementById("cards").onmousemove = e => {
       card.style.setProperty("--mouse-y", `${y}px`);
     };
   }
+document.getElementById("btn").onclick = e =>{
+  document.getElementById("choose-more").classList.remove("none");
+  document.getElementById("btn").classList.add("none");
+}

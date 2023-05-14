@@ -1,4 +1,4 @@
-.container{
+.side-container{
     
     display: flex;
     flex-direction: column;
@@ -7,22 +7,21 @@
 }
 
 .sidenav {
-   
-    border: solid 3px ;
-    margin-top: 150px;
+    border: 3px;
     position: fixed;
-    right: 0;
-    background-color: #111; 
+    top: 15vw;
+    left: 0;
     overflow-x: hidden; 
     padding-top: 20px;
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 0px 5px 5px 0px;
+    z-index: 3;
     box-shadow: 0 0 20px rgb(186, 42, 225);
   }
  
   
   
   .sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 6px 16px 6px 8px;
     display: block;
   }
     

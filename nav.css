@@ -51,8 +51,11 @@ button:hover{
 .nav-link:hover{
     padding: 1vw 2vw;
     color:white;
-    background:#a18cb5;
+    background: linear-gradient(to right,#50aac0,#8c5ec2);
     border-radius: 30px;
+}
+.nav-link:hover button{
+    background: none;
 }
 .hamburger{
     display: none;

@@ -1,0 +1,52 @@
+.codep{
+    background-color: #18181d;
+    width: 800px;
+    text-align: left;
+    border-radius: 2vw;
+}
+@media only screen and (max-width:1000px){
+.codep{
+    width: 500px;
+}}
+@media only screen and (max-width:600px){
+    .codep{
+        width: 450px;
+    }  
+}
+.tabnav{
+    border-radius: 1vw 1vw 0vw 0vw;
+    background-color: #40405a; 
+    border: 0px solid aqua;
+    width: 100%;
+    display: flex ; flex-direction: row; justify-content: flex-start;
+}
+
+.ctab{
+    background-color: #2a2b33;
+    padding: 10px 20px;
+    margin: 7px 0px 0px 8px;
+    border-radius: 5px 5px 0px 0px;
+}
+.ctab:hover{
+    cursor: pointer;
+}
+.htab{
+    background-color: #18181d;
+}
+@media only screen and (max-width:600px){
+.tabnav{
+    flex-direction: column;
+}
+.ctab{
+    margin: 0px 5px;
+}   
+.htab{
+    margin-top: 5px;
+}
+}
+       
+.codeblock{
+    color: aliceblue;
+    padding: 10px 50px;
+    height: 350px; width: 500px;
+}

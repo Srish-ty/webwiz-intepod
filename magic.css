@@ -5,31 +5,32 @@
   }
   
   :root {
-    --card-height: 45vh;
-    --card-width: calc(var(--card-height) / 1.5);
+    --magic-card-height: 45vh;
+    --magic-card-width: calc(var(--magic-card-height) / 1.5);
   }
   
   
-  body {
-    min-height: 100vh;
-    background: #050a1c;
+  #meet-team{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    box-sizing: border-box;
     gap: 40px;
-    
-
+    margin-bottom: 10vw;
   }
+
+@media only screen and (max-width:970px) {
+ #meet-team{
+  flex-direction: column;
+ } 
+}
   
-  
-  .card {
+  .magic-card{
     background: #120929;
-    width: var(--card-width);
-    height: var(--card-height);
+    width: var(--magic-card-width);
+    height: var(--magic-card-height);
     padding: 3px;
     position: relative;
     border-radius: 6px;
@@ -50,8 +51,8 @@
 
   .tiltcard{
     background: #120929;
-    width: var(--card-width);
-    height: var(--card-height);
+    width: var(--magic-card-width);
+    height: var(--magic-card-height);
     padding: 3px;
     position: relative;
     border-radius: 6px;
@@ -68,17 +69,17 @@
     gap: 8px;
   }
   
-  .card:hover {
+  .magic-card:hover {
     color: rgb(151, 15, 215);
     transition: color 1s;
   }
-  .card:hover:before, .card:hover:after {
+  .magic-card:hover:before, .magic-card:hover:after {
     animation: none;
     opacity: 0;
   }
   
   
-  .card::before {
+  .magic-card::before {
     content: "";
     width: 104%;
     height: 102%;
@@ -93,10 +94,10 @@
       animation: spin 2.5s linear infinite;
   }
   
-  .card::after {
+  .magic-card::after {
     position: absolute;
     content: "";
-    top: calc(var(--card-height) / 6);
+    top: calc(var(--magic-card-height) / 6);
     left: 0;
     right: 0;
     z-index: -1;
@@ -104,7 +105,7 @@
     width: 100%;
     margin: 0 auto;
     transform: scale(0.8);
-    filter: blur(calc(var(--card-height) / 6));
+    filter: blur(calc(var(--magic-card-height) / 6));
     background-image: linear-gradient(
       var(--rotate)
       , #5805c5, #6c2374 43%, #4e00c2);
@@ -122,4 +123,19 @@
     }
   }
   
-  
+  #party{
+    padding: 20px 40px;
+    background: #050a1c;
+    color: white;
+    border-radius: 6px;
+    border: 2px solid purple;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .tiltcard img{
+    border-radius: 6px;
+  }
+#party:hover{
+  color:white;
+  background: linear-gradient(to right,#50aac0,#8c5ec2);
+}

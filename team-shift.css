@@ -1,29 +1,40 @@
-
-.container {
+.team-container{
+  border: 0px solid white;
+  margin: 1000vw auto;
+  padding: 4vw 6vw;
+}
+/*
+.card-content {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
   }
-  
-  .cards {
+ */ 
+  .team-cards, .team-cards2, .team-cards3 {
+    margin: 10px auto 5px auto;
     position: relative;
     width: 600px;
     height: 300px;
   }
   
-  .card {
+  .team-card {
+    border: 0px solid red;
+    border-radius: 20px;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 300px;
+    width: 550px;
     height: 300px;
     transition: transform 1s;
     background-color: rgb(23, 23, 23);
   }
-  
-  .card h2,
-  .card p {
+@media only screen and (max-width:670px) {
+.team-card{
+  width: 250px; height: 150px;
+}  
+}
+
+  .team-card h2,
+  .team-card p {
     padding: 10px;
   }
   
@@ -36,13 +47,13 @@
   color: rgb(240, 240, 240);
   font-family: "Rubik", sans-serif;
   font-weight: 400;
-  margin: 0px;
+  margin: 10px;
 }
 
 i {  
   color: rgb(240, 240, 240);
 }
-
+/*
 .card-image {
   align-items: center;
   display: flex;
@@ -55,7 +66,7 @@ i {
   font-size: 6em;
   opacity: 0.25;
 }
-
+*/
 .card-info-wrapper {
   align-items: center;
   display: flex;
@@ -91,3 +102,12 @@ i {
       transform: translateY(100%);
     }
   }
+
+.mvLeft{
+  transform: translateX(-50%);
+  transition-duration: 1200ms;
+}
+
+.teams-sec{
+  height: 180vh;
+}

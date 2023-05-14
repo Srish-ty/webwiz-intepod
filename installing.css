@@ -21,13 +21,13 @@
 #usr{padding: 1px 1vw;
   background-color: #a18cb5;
     color: #0d0c1c;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 .wrapper {
     height: auto;
     border: 0px solid aqua; 
     border-right: 3px solid;
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: monospace;
   }
   
@@ -51,7 +51,7 @@
  
 
 #instapro1, #instapro2, #instapro3{
-  font-size: 1em;
+  font-size: 1.2em;
   border-right: 3px solid;
   font-family: monospace;
   color: #979eda;

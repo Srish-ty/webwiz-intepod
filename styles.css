@@ -1,5 +1,28 @@
 @import url('https://fonts.cdnfonts.com/css/mona-sans');
 
+::-webkit-scrollbar{
+    width: 13px;
+}
+::-webkit-scrollbar-track{
+    background: #1d0a35;
+}
+::-webkit-scrollbar-track:hover{
+    background: #164355;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#8e2bff,#17bce6);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(#17bce6,#8e2bff);
+}
+
+@media only screen and (max-width:670px){
+::-webkit-scrollbar{
+    width: 7px;
+}  
+}
+
 body{
     font-family: 'Mona Sans', sans-serif;
     margin: 0%;
@@ -8,7 +31,12 @@ body{
     background-image: url('./images/backgci.jpg') ;
     background-repeat: no-repeat;
 }
-
+.first{
+    background-position: center;
+}
+.second{
+    height: 50vh;
+}
 #navbar {
     padding: 0.5vw 2vw;
     background-color: aqua;

@@ -7,23 +7,16 @@
   box-sizing: border-box;
 }
 
-
-body,h1,h2,h3,h4,p,figure,blockquote,dl,dd {
-  margin: 0;
-}
-
-
 ul[role='list'],
 ol[role='list'] {
   list-style: none;
 }
 
-
 html:focus-within {
   scroll-behavior: smooth;
 }
 
-
+/*
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
@@ -33,15 +26,14 @@ body {
   background-size: 32px 32px;
   color: var(--dark);
 }
-
+*/
 
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
 
-img,
-picture {
+chatbox-message-image {
   max-width: 100%;
   display: block;
 }
@@ -68,7 +60,7 @@ select {
   }
 }
 
-
+/*
 :root {
 	--blue: #335DFF;
 	--grey: #F5F5F5;
@@ -78,6 +70,7 @@ select {
 	--white: #FFF;
 	--dark: #222;
 }
+*/
 
 .chatbox-wrapper {
 	position: fixed;

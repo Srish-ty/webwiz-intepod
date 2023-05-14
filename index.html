@@ -3,20 +3,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main </title>
+    <title>Pod 5 </title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="./sections.css">
     <link rel="stylesheet" href="./nav.css">
+    <link rel="stylesheet" href="magic.css">
     <link rel="stylesheet" href="./installing.css">   
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="glass.css"> 
+    <link rel="stylesheet" href="sidepanel.css">
+    <link rel="stylesheet" href="./codepen.css"> 
+    <link rel="stylesheet" href="terminal.css">   
+    <link rel="stylesheet" href="team-shift.css">
+    <link rel="stylesheet" href="chatbox.css">
+
+    <link rel="icon" href="https://webwiznitr.netlify.app/static/media/logo.cd0dd8f3.ico">
     <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <link href="https://fonts.cdnfonts.com/css/mona-sans" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js" defer></script>
+    <script src="glass.js" defer></script>
     <script src="instatyping.js" defer></script>
     <script src="darkMode.js" defer></script>
     <script src="scripts.js" defer></script>
     <script src="nav.js" defer></script>
+    <script src="team-shift.js" defer></script>
+    <script src="codepen.js" defer></script>
     <script src="scrollanim.js" defer></script>
+    <script src="magic.js" defer></script>
+    <script src="chatbox.js" defer></script>
 
 
 </head>
@@ -59,11 +76,58 @@
         </div>
     </section>
 
+    <!-- side bar -->
+      <div class="side-container">
+  
+          <div class="sidenav">
+              <a href="#" target="_blank"><img height="24px" width="24px" src="./images/fblogo-removebg-preview.png" alt=""></a><br>
+              <a href="https://github.com/Webwiznitr" target="_blank"><img height="24px" width="24px" src="./images/github-mark-white.png" alt=""></a><br>
+              <a href="https://www.instagram.com/webwiz.nitr" target="_blank"><img height="24px" width="24px" src="./images/instalogo.png" alt=""></a><br>
+              <a href="https://www.linkedin.com/company/webwiz-nitr/" target="_blank"><img height="24px" width="24px" src="./images//linkedin-24.png" alt=""></a><br>
+              <a href="https://www.youtube.com/channel/UC9yM_PkV0QIIsPA3qPrp3zw" target="_blank"><img height="24px" width="24px" src="./images/youtubelogo-removebg-preview.png" alt=""></a><br>
+          </div>
+      </div>
+      
+  
+
+    <!-- first sec -->
 
     <section class="sec first hidden">
-        <h1 class="head1">This is the first section</h1>
-        <p class="para">This is the content</p>
+        <h1 class="head1">The Webwiz Frontend Designed by Pod 5</h1>
+        <p class="para">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+          If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
     </section>
+
+    <!-- Codepen section -->
+  <section class="sec">
+
+    <div class="codep">
+      <nav class="tabnav">
+          <span class="ctab htab"> Made_for_students.py </span>
+          <span class="ctab csstab"> styles.css </span>
+          <span class="ctab jstab"> scripts.js </span>
+
+      </nav>
+      <div class="codeblock">
+          <div class="htm"> 
+          <pre>
+import matplotlib.pyplot as plt
+def draw_scatterplot(x_values, y_values):
+plt.scatter(x_values, y_values, s=20)
+plt.title("Scatter Plot")
+plt.xlabel("x values")
+plt.ylabel("y values")
+plt.show()
+          </pre>
+          </div>
+          <div class="cssb"></div>
+          <div class="js"></div>
+
+      </div>
+  </div>
+
+  </section>
+
 
     <section class="sec second hidden">
         <h1 class="head1">What is Lorem Ipsum?</h1>
@@ -71,10 +135,244 @@
             and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
     </section>
 
+
+    <!-- project section -->
+
     <section class="sec third hidden">
-        <h1 class="head1">Why do we use it? </h1>
-        <p class="para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. 
-            Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+
+        <h1 class="head1"> Projects </h1>
+        
+        <div id="cards">
+            <div class="card" data-tilt>
+              <div class="card-content">
+                <div class="card-image">
+                  <img src="./images/hackologo.png" alt="" width="80px" height="80px">
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-info">
+                    <div class="card-info-title">
+                      <h3>HackOdisha</h3>  
+                      <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, veniam!</h4>
+                    </div>    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card" data-tilt>
+              <div class="card-content">
+                <div class="card-image">
+                  <img src="./images/hackologo.png" alt="" width="80px" height="80px">
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-info">
+                    <div class="card-info-title">
+                      <h3>Daffodil</h3>  
+                      <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, earum.</h4>
+                    </div>    
+                  </div>  
+                </div>
+              </div>
+            </div>
+            <div class="card" data-tilt>
+              <div class="card-content">
+                <div class="card-image">
+                  <img src="./images/hackologo.png" alt="" width="80px" height="80px">
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-info">
+                    <div class="card-info-title">
+                      <h3>Clubopedia</h3>  
+                      <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, consectetur.</h4>
+                    </div>    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card" data-tilt>
+              <div class="card-content">
+                <div class="card-image">
+                  <img src="./images/hackologo.png" alt="" width="80px" height="80px">
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-info">
+                    <div class="card-info-title">
+                      <h3>Webdev Roadmap</h3>  
+                      <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, debitis.</h4>
+                    </div>    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card" data-tilt>
+              <div class="card-content">
+                <div class="card-image">
+                  <img src="./images/hackologo.png" alt="" width="80px" height="80px">
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-info">
+                    <div class="card-info-title">
+                      <h3>Basil</h3>  
+                      <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, placeat.</h4>
+                    </div>    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card" data-tilt>
+              <div class="card-content">
+                <div class="card-image">
+                  <img src="./images/hackologo.png" alt="" width="80px" height="80px">
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-info">
+                    <div class="card-info-title">
+                      <h3>Ebony</h3>  
+                      <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, animi.</h4>
+                    </div>    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+
     </section>
+
+    
+<!-- Teams -->
+
+    <section class="sec teams-sec">
+   
+      <div class="team-container">
+        <div class="team-cards">
+          <div id= "secret" class="team-card">
+            <div class=fakeMenu>
+              <div class="fakeButtons fakeClose"></div>
+              <div class="fakeButtons fakeMinimize"></div>
+              <div class="fakeButtons fakeZoom"></div>
+            </div>
+            <div class="fakeScreen">
+              <p id ="line1" class="line1">$ Our Technical Team consists of the brightest of developers who find the solutions to problems people don't dare to dream.<span class="cursor1">_</span></p>
+            </div>
+          </div>
+          <div class="team-card">
+                <img src="https://res.cloudinary.com/webwiznitr/image/upload/v1637571888/webwiz-portfolio/others/b38e64c93705e508ecb51751ee551892_wzbdll.webp" alt="" height="300px" width="550px">
+          </div> 
+        </div>
+        <div class="team-cards2">
+          <div id= "secret2" class="team-card">
+            <div class=fakeMenu>
+              <div class="fakeButtons fakeClose"></div>
+              <div class="fakeButtons fakeMinimize"></div>
+              <div class="fakeButtons fakeZoom"></div>
+            </div>
+            <div class="fakeScreen">
+              <p id ="line1" class="line1">$ Design Team <br> who enchant the eyes and change the tech world one UI at a time. Dive into the world of Designing as an irrefutable part of the club.<span class="cursor1">_</span></p>
+            </div>
+          </div>
+          <div class="team-card">
+                <img src="https://res.cloudinary.com/webwiznitr/image/upload/v1637571888/webwiz-portfolio/others/70ff7d1030a69df8ff5eaddadaa48f9f_rnxcth.webp" alt="" height="300px" width="550px">
+          </div> 
+        </div>
+        <div class="team-cards3">
+          <div id= "secret3" class="team-card">
+            <div class=fakeMenu>
+              <div class="fakeButtons fakeClose"></div>
+              <div class="fakeButtons fakeMinimize"></div>
+              <div class="fakeButtons fakeZoom"></div>
+            </div>
+            <div class="fakeScreen">
+              <p id ="line1" class="line1">$ Content Team <br> that is easy to comprehend and tough to forget. Help us make in the mark of everyone that comes across the name Webwiz.<span class="cursor1">_</span></p>
+            </div>
+          </div>
+          <div class="team-card">
+                <img src="https://res.cloudinary.com/webwiznitr/image/upload/v1637571969/webwiz-portfolio/others/8c03315887b1cea6b8651ae5cbb15a42_srar0k.webp" alt="" height="300px" width="550px">
+          </div> 
+        </div>
+      </div>
+      
+       
+    </section>
+
+    <!-- Meet-the-Team -->
+
+    <section id="meet-team">
+
+      <div class="magic-card tiltcard">
+        <img src="https://res.cloudinary.com/webwiznitr/image/upload/v1628939607/webwiz-portfolio/team-images/team-webwiz/aniket%20pal.jpg" alt="" width="150px" height="150px">
+        Founder
+        
+      </div>
+      
+      
+      <div class="magic-card tiltcard">
+        <img src="https://res.cloudinary.com/webwiznitr/image/upload/v1628924348/webwiz-portfolio/team-images/team-webwiz/profile_pic_-_Gourab_Nanda_o4xurp.jpg" alt=""
+        width="150px" height="150px">
+        President
+        
+      </div>
+      
+      <div class="magic-card tiltcard">
+        <img src="https://res.cloudinary.com/webwiznitr/image/upload/v1628944049/webwiz-portfolio/team-images/team-webwiz/kumar%20shantanu.jpg" alt=""
+        width="150px" height="150px">
+        Vice-President
+        
+      </div>
+      <a href="https://webwiznitr.netlify.app/team" target="_blank" id="party">Meet the team..</a>
+      
+    </section>
+
+    <!-- Chat box  -->
+
+    <section>
+	
+      <div class="chatbox-wrapper">
+        <div class="chatbox-toggle">
+          <i class='bx bx-message-dots'></i>
+        </div>
+        <div class="chatbox-message-wrapper">
+          <div class="chatbox-message-header">
+            <div class="chatbox-message-profile">
+              <img src="https://www.pngall.com/wp-content/uploads/5/Marvel-Villian-Thanos-PNG-Images.png" alt="" class="chatbox-message-image">
+              <div>
+                <h4 class="chatbox-message-name">Jarvis</h4>
+                <p class="chatbox-message-status">online</p>
+              </div>
+            </div>
+            
+          </div>
+          <div class="chatbox-message-content">
+            <h4 class="chatbox-message-no-message">You don't have message yet!</h4>
+            
+          </div>
+          <div class="chatbox-message-bottom">
+            <form action="#" class="chatbox-message-form">
+              <textarea rows="1" placeholder="Type message..." class="chatbox-message-input"></textarea>
+              <button type="submit" class="chatbox-message-submit"><i class='bx bx-send' ></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+      
+
+    <!--- Footer ---->
+
+    <footer>
+        <div class="foot">
+
+            Webwiz. © 2023 All rights <br>
+            Made with love ❤️ <br>
+        </div>
+        <div class="foot2">
+
+            <img class="char" src="https://i.pinimg.com/564x/37/6b/c8/376bc86383d369000e76693e3e90371e.jpg" alt="" >Sristy
+            <img class="char" src="https://m.media-amazon.com/images/I/615yyfXNg1L._AC_SY741_.jpg" alt="" >Prasad
+            <img class="char" src="https://www.pngfind.com/pngs/m/657-6577079_spiderman-mask-png-transparent-spider-man-homecoming-suit.png" alt="">Aditya
+            <img class="char" src="https://cdna.artstation.com/p/assets/images/images/060/873/874/large/joeprops3d-1.jpg?1679500496" alt="" > Pratik
+        </div>
+
+    </footer>
 </body>
 </html>

@@ -3,14 +3,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GrandpaMax part</title>
+    <title>Main </title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="./sections.css">
+    <link rel="stylesheet" href="./nav.css">
+    <link rel="stylesheet" href="./installing.css">   
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="grandMax.css">
+
+    <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link href="https://fonts.cdnfonts.com/css/mona-sans" rel="stylesheet">
+    <script src="instatyping.js" defer></script>
+    <script src="darkMode.js" defer></script>
     <script src="scripts.js" defer></script>
+    <script src="nav.js" defer></script>
+    <script src="scrollanim.js" defer></script>
+
+
 </head>
 <body>
-    <section class="sec ">
+    <nav class="navbar">
+        <a href="#" class="nav-branding"> WEBWIZ </a>
+        <ul class="nav-menu">
+            <li class="nav-item"> <a href="#" class="nav-link"> <button>Home</button> </a> </li>
+            <li class="nav-item"> <a href="#" class="nav-link">About Us </a> </li>
+            <li class="nav-item"> <a href="#" class="nav-link">Team </a>  </li>
+            <li class="nav-item"> <a href="#" class="nav-link">Events  </a> </li>
+            <li class="nav-item"> <a href="#" class="nav-link">Sign-in  </a> </li>
+            <li class="nav-item"> <i class= "material-icons dark-mode">dark_mode</i> </li>
 
+
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <section class="sec instcont">
+        <div id="usernm"><span id="usr">pod5@webwiz/hackathon: </span>
+        <div class="wrapper">
+            <div class="typing-demo">
+              npm install
+            </div>
+        </div></div>
+
+        <p id="instapro1"></p>
+        <p id="instapro2"></p>
+        <p id="instapro3"></p>
+
+        <div class="w3-container">
+            <div class="w3-light-grey">
+                <div id="progBar" class="w3-aqua" style="height:24px;width:0"></div>
+            </div>
+        </div>
     </section>
+
+
+    <section class="sec first hidden">
+        <h1 class="head1">This is the first section</h1>
+        <p class="para">This is the content</p>
+    </section>
+
+    
+
+    <section class="sec second hidden">
+        <h1 class="head1">What is Lorem Ipsum?</h1>
+        <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </section>
+
+    <section class="sec third hidden">
+        <h1 class="head1">Why do we use it? </h1>
+        <p class="para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. 
+            Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+    </section>
+
+
+
+
+    <footer>
+        <div class="foot">
+
+            Webwiz. © 2023 All rights <br>
+            Made with love ❤️ <br>
+        </div>
+        <div class="foot2">
+
+            <img class="char" src="https://i.pinimg.com/564x/37/6b/c8/376bc86383d369000e76693e3e90371e.jpg" alt="" >Sristy
+            <img class="char" src="https://m.media-amazon.com/images/I/615yyfXNg1L._AC_SY741_.jpg" alt="" >Prasad
+            <img class="char" src="https://www.pngfind.com/pngs/m/657-6577079_spiderman-mask-png-transparent-spider-man-homecoming-suit.png" alt="">Aditya
+            <img class="char" src="https://cdna.artstation.com/p/assets/images/images/060/873/874/large/joeprops3d-1.jpg?1679500496" alt="" > Pratik
+        </div>
+
+    </footer>
 </body>
 </html>

@@ -3,14 +3,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gwen part</title>
+    <title>Main </title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="./sections.css">
+    <link rel="stylesheet" href="./nav.css">
+    <link rel="stylesheet" href="./installing.css">       <link rel="stylesheet" href="sidepanel.css">
+    <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link href="https://fonts.cdnfonts.com/css/mona-sans" rel="stylesheet">
+    <script src="instatyping.js" defer></script>
+    <script src="darkMode.js" defer></script>
     <script src="scripts.js" defer></script>
+    <script src="nav.js" defer></script>
+    <script src="scrollanim.js" defer></script>
+
+
 </head>
 <body>
-    <section class="sec ">
+    <nav class="navbar">
+        <a href="#" class="nav-branding"> WEBWIZ </a>
+        <ul class="nav-menu">
+            <li class="nav-item"> <a href="#" class="nav-link"> <button>Home</button> </a> </li>
+            <li class="nav-item"> <a href="#" class="nav-link">About Us </a> </li>
+            <li class="nav-item"> <a href="#" class="nav-link">Team </a>  </li>
+            <li class="nav-item"> <a href="#" class="nav-link">Events  </a> </li>
+            <li class="nav-item"> <a href="#" class="nav-link">Sign-in  </a> </li>
+            <li class="nav-item"> <i class= "material-icons dark-mode">dark_mode</i> </li>
 
+
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <section class="sec instcont">
+        <div id="usernm"><span id="usr">pod5@webwiz/hackathon: </span>
+        <div class="wrapper">
+            <div class="typing-demo">
+              npm install
+            </div>
+        </div></div>
+
+        <p id="instapro1"></p>
+        <p id="instapro2"></p>
+        <p id="instapro3"></p>
+
+        <div class="w3-container">
+            <div class="w3-light-grey">
+                <div id="progBar" class="w3-aqua" style="height:24px;width:0"></div>
+            </div>
+        </div>
     </section>
+
+
+    <section class="sec first hidden">
+        <h1 class="head1">This is the first section</h1>
+        <p class="para">This is the content</p>
+    </section>
+
+    <div class="container">
+
+        <div class="sidenav">
+            <a href="#" target="_blank"><img height="24px" width="24px" src="./images/fblogo-removebg-preview.png" alt=""></a><br>
+            <a href="https://github.com/Webwiznitr" target="_blank"><img height="24px" width="24px" src="./images/github-mark-white.png" alt=""></a><br>
+            <a href="https://www.instagram.com/webwiz.nitr" target="_blank"><img height="24px" width="24px" src="./images/instalogo.png" alt=""></a><br>
+            <a href="https://www.linkedin.com/company/webwiz-nitr/" target="_blank"><img height="24px" width="24px" src="./images//linkedin-24.png" alt=""></a><br>
+            <a href="https://www.youtube.com/channel/UC9yM_PkV0QIIsPA3qPrp3zw" target="_blank"><img height="24px" width="24px" src="./images/youtubelogo-removebg-preview.png" alt=""></a><br>
+        </div>
+    </div>
+
+    <section class="sec second hidden">
+        <h1 class="head1">What is Lorem Ipsum?</h1>
+        <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </section>
+
+    <section class="sec third hidden">
+        <h1 class="head1">Why do we use it? </h1>
+        <p class="para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. 
+            Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+    </section>
+    
 </body>
 </html>

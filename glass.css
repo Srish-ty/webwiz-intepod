@@ -1,21 +1,25 @@
-:root {
+/* :root {
     --bg-color: rgb(20, 20, 20);
     --card-color: rgb(23, 23, 23);
+  } */
+  .none{
+    display: none;
   }
-  
-  body {
+  .third {
+    --card-color: #0c0a27;
     align-items: center;
     background-color: var(--bg-color);
-    display: flex;
+    display: flex; flex-direction: column;
     height: 100vh;
     justify-content: center;
-    margin: 0px;
+    margin: 2vw auto;
     overflow: hidden;
     padding: 0px;
   }
   
   #cards {
     display: flex;
+    margin: 2vw auto;
     flex-wrap: wrap;
     gap: 8px;  
     max-width: 916px;
@@ -27,11 +31,11 @@
   }
   
   .card {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #0d0c1c;
     border-radius: 10px;
     cursor: pointer;
     display: flex;
-    height: 260px;
+    height: 360px;
     flex-direction: column;
     position: relative;
     width: 300px;  
@@ -57,7 +61,7 @@
   .card::before {
     background: radial-gradient(
       800px circle at var(--mouse-x) var(--mouse-y), 
-      rgba(255, 255, 255, 0.06),
+      rgba(97, 7, 182, 0.298),
       transparent 40%
     );
     z-index: 3;
@@ -66,7 +70,7 @@
   .card::after {  
     background: radial-gradient(
       600px circle at var(--mouse-x) var(--mouse-y), 
-      rgba(255, 255, 255, 0.4),
+      rgb(0, 204, 255),
       transparent 40%
     );
     z-index: 1;
@@ -195,53 +199,4 @@
     .card {
       width: 100%;
     }
-  }
-  
-  /* -- ↓ ↓ ↓ YouTube link styles ↓ ↓ ↓ -- */
-  
-  #youtube-link {
-    bottom: 10px;
-  }
-  
-  #youtube-link > i {
-    color: rgb(239, 83, 80);
-  }
-  
-  #source-link {
-    bottom: 60px;
-  }
-  
-  #source-link > i {
-    color: rgb(94, 106, 210);
-  }
-  
-  .link {
-    align-items: center;
-    backdrop-filter: blur(3px);
-    background-color: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 6px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-    cursor: pointer;  
-    display: inline-flex;
-    gap: 5px;
-    left: 10px;
-    padding: 10px 20px;
-    position: fixed;
-    text-decoration: none;
-    z-index: 100;
-  }
-  
-  .link:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-  }
-  
-  .link > i, .link > span {
-    height: 20px;
-    line-height: 20px;
-  }
-  
-  .link > span {
-    color: white;
   }
