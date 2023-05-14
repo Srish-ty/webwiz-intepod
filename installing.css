@@ -1,0 +1,61 @@
+.instcont{
+    border: 0px solid aqua;
+    display: flex;
+    flex-direction: column;  justify-content: baseline;
+    align-items: flex-start;
+    width: 40%; margin: auto;
+}
+#usernm{
+    border-right: 3px solid;
+    font-family: monospace;
+    display: flex; flex-direction: row; justify-content: center; align-items: center;
+    border: 0px solid white;
+}
+@media only screen and (max-width:800px) {
+.instcont{ width: 50%; }
+#usernm{
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+}
+}
+
+#usr{padding: 1px 1vw;
+  background-color: #a18cb5;
+    color: #0d0c1c;
+    font-size: 1em;
+}
+.wrapper {
+    height: auto;
+    border: 0px solid aqua; 
+    border-right: 3px solid;
+    font-size: 1em;
+    font-family: monospace;
+  }
+  
+  .typing-demo {
+    width: 12ch;
+    animation: typing 1s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+ 
+
+#instapro1, #instapro2, #instapro3{
+  font-size: 1em;
+  border-right: 3px solid;
+  font-family: monospace;
+  color: #979eda;
+  border: 0px solid rosybrown;
+  margin: 0.6vw 1vw;
+  text-align: left;
+}

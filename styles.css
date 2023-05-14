@@ -5,6 +5,9 @@ body{
     margin: 0%;
     background-color: #0d0c1c;
     color:#edf3fc;
+    background-image: url('./images/back0.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
 }
 
 #navbar {
@@ -25,5 +28,5 @@ body{
     font-size: 2em;
 }
 .para{
-    color: #b8babd;
+    color: #8e9092;
 }
