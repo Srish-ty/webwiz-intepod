@@ -6,7 +6,7 @@
     display: none;
   }
   .third {
-    --card-color: #0c0a27;
+    --card-color: #120a27;
     align-items: center;
     background-color: var(--bg-color);
     display: flex; flex-direction: column;

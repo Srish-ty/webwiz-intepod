@@ -19,6 +19,7 @@
   }
   
   .team-card {
+    cursor: pointer;
     border: 0px solid red;
     border-radius: 20px;
     position: absolute;
